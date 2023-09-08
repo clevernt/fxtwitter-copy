@@ -1,5 +1,5 @@
 # fxtwitter-copy
-Replaces twitter.com with fxtwitter.com when copying Twitter links
+Replaces twitter.com with [fxtwitter.com](https://github.com/FixTweet/FixTweet) when copying Twitter links
 
 ## Prerequisites
 - [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/)
