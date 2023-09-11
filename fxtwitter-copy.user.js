@@ -5,7 +5,8 @@
 // ==/UserScript==
 
 document.addEventListener('copy', function(e){
-  var text = window.getSelection().toString().replace('twitter.com', 'fxtwitter.com');
-  e.clipboardData.setData('text/plain', text);
+  var selectedText = window.getSelection().toString();
+  var replacedText = selectedText.replace(/(x\.com|twitter\.com)/g, 'fxtwitter.com');
+  e.clipboardData.setData('text/plain', replacedText);
   e.preventDefault();
 });
