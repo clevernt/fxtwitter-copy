@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         FXTwitter Copy
 // @match        https://twitter.com/*
+// @match        https://x.com/*
 // @noframes
 // ==/UserScript==
 
